@@ -1,0 +1,13 @@
+{
+    "PassengerId": 894,
+    "Pclass": 2,
+    "Name": "Myles, Mr. Thomas Francis",
+    "Sex": "male",
+    "Age": 62,
+    "SibSp": 0,
+    "Parch": 0,
+    "Ticket": 240276,
+    "Fare": 9.6875,
+    "Cabin": null,
+    "Embarked": "Q"
+}

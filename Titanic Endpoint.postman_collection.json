@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "7c4452e9-a7cc-4172-9218-696a289166db",
+		"name": "Titanic Endpoint",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Prediction",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"PassengerId\": 894,\n    \"Pclass\": 2,\n    \"Name\": \"Myles, Mr. Thomas Francis\",\n    \"Sex\": \"male\",\n    \"Age\": 62,\n    \"SibSp\": 0,\n    \"Parch\": 0,\n    \"Ticket\": 240276,\n    \"Fare\": 9.6875,\n    \"Cabin\":null,\n    \"Embarked\": \"Q\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/predict",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"predict"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
