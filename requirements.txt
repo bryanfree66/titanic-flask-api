@@ -91,7 +91,7 @@ pytz==2013.7
 PyYAML==3.12
 pyzmq==19.0.1
 requests==2.18.4
-rope==0.10.7
+rope==0.11.0
 rsa==3.4.2
 scandir==1.10.0
 scipy==0.13.0b1
