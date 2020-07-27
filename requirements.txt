@@ -90,7 +90,7 @@ python-mimeparse==1.6.0
 pytz==2013.7
 PyYAML==3.12
 pyzmq==19.0.1
-requests==2.18.4
+requests==2.20.0
 rope==0.10.7
 rsa==3.4.2
 scandir==1.10.0
